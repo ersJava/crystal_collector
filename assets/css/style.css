@@ -1,0 +1,99 @@
+h1 {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    color: rgb(252, 226, 141);
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 5px 10px 20px 50px;
+}
+
+#win-lose {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 34px;
+    margin-left: 50px;
+}
+
+#currentCrystalNum {
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    padding: 40px;
+    border-radius: 25px;
+    border: 4px dotted rgb(125, 191, 211);
+    margin-left: 50px;
+    width: 10%;
+    text-align: center;
+        
+}
+
+.container {
+    padding: 30px;
+    width: auto;
+    
+}
+
+#img1 {
+    float: left;
+    padding: 10px;
+}
+
+#img2 {
+    float: left;
+    padding: 10px;
+}
+
+#img3 {
+    float: left;
+    padding: 10px;
+}
+
+#img4 {
+    float: left;
+    padding: 10px;
+}
+
+#box-photo {
+    margin-left: 50px;
+}
+
+#currentCrystalCount {
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    padding: 40px;
+    border-radius: 25px;
+    border: 4px dotted rgb(219, 106, 210);
+    margin-left: 50px;
+    width: 10%;
+    text-align: center;
+    float: left;
+}
+
+#c {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 34px;
+    margin-left: 50px;
+    width: 100%;
+    float: left;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.footer {
+    padding: 50px;
+    float: left;
+    margin-top: 80px;
+    display: block;
+}
