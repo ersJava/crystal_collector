@@ -45,22 +45,7 @@ p {
     
 }
 
-#img1 {
-    float: left;
-    padding: 10px;
-}
-
-#img2 {
-    float: left;
-    padding: 10px;
-}
-
-#img3 {
-    float: left;
-    padding: 10px;
-}
-
-#img4 {
+.crystals {
     float: left;
     padding: 10px;
 }
@@ -97,3 +82,5 @@ p {
     margin-top: 80px;
     display: block;
 }
+
+/* still works */

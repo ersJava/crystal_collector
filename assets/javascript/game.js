@@ -1,43 +1,63 @@
 $(document).ready(function(){
 
-    //stores the input from the user's choice from crystals
-    var input=[""];
+var win;
+var lose;
+var currentCount;
 
-    //string to store current input 
-    var totalString;
-
-    //operator
-    var addition=["+"];
-    var nums=[1,2,3,4,5,6,7,8,9];
-    var crystals=["imgOne", "imgTwo", "imgThree", "imgFour"];
-
-    var currentCrystalNum;
-    var win;
-    var lose; 
-
-    var imgOne;
-    var imgTwo;
-    var imgThree;
-    var imgFour;
-
-    var currentCrystalCount;
-
-    function currentNumber() {
-        var a = document.getElementById("currentCrystalNum")
-        a.innerText = Math.floor((Math.random() * 30) + 10);
+// ================================
+var currentCrystalNum;
+function currentNumber() {
+    var a = document.getElementById("currentCrystalNum")
+    a.innerText = Math.floor((Math.random() * 30) + 10);
     }
     currentNumber()
+//================================ 
 
-    //everything is working
-// let dwarves = ['d', 'a', 'r', 'k'];
+// *this is a loop that runs 4x and with console.log(crystals) will print crystals 4x
+for (var i = 0; i < 4; i++) {
+// declare a random var to generate a random num by math random
+var randomValue = Math.floor((Math.random() * 9) + 1);
+console.log(randomValue);
 
-// dwarves.forEach(output);
+var dataId = $(this).attr('value' , randomValue);
+console.log(dataId);
+        
+    }
 
-// function output(item, index, array) {
-//     console.log(index, item);
-// }
+// doesn't this code work? ughhhhhhhhh
+$(startGame).ready(function() {
+// listens to a click event with anything with the class "crystals", once clicked it listens 
+$('.crystal').on('click', function() {
 
-console.log('hello');
+// converting string of integers to a new number from the random value from each crystal
+// code doesn't work
+    // var num =parseInt($(this).attr(randomValue));
 
-  
+    //current crystal count starts at 0, and adds number for var num
+    var currentCount =+ num
+    
+    //if currentCount === to currentCrystalNum
+    //alert "you win"
+    // win;++
+
+    //if else currentCount !== to currentCrystalNum
+    //alert "try again"
+    //lose++
+
+    // I don't know!!! 
+
+        });
+    });
+// ================================
+var currentCrystalCount;
+function currentCount() {
+    var a = document.getElementById("currentCrystalCount").html
+    currentCount()
+}
+//================================ 
+
+
+
 });
+
+
