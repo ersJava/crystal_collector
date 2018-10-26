@@ -14,13 +14,14 @@ function currentNumber() {
 //================================ 
 
 // *this is a loop that runs 4x and with console.log(crystals) will print crystals 4x
-for (var i = 0; i < 4; i++) {
+for (var i = 1; i < 5; i++) {
+    var randomValue = Math.floor((Math.random() * 9) + 1);
+    $("#c" + i).attr('value' , randomValue)
 // declare a random var to generate a random num by math random
-var randomValue = Math.floor((Math.random() * 9) + 1);
-console.log(randomValue);
+
 
 var dataId = $(this).attr('value' , randomValue);
-console.log(dataId);
+console.log("dataId", dataId);
         
     }
 
@@ -52,10 +53,12 @@ $('.crystal').on('click', function() {
 var currentCrystalCount;
 function currentCount() {
     var a = document.getElementById("currentCrystalCount").html
-    currentCount()
+    // currentCount()
 }
 //================================ 
 
+
+startGame();
 
 
 });
