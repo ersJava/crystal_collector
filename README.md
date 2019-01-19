@@ -29,4 +29,6 @@ An interactive web browsers game that dynamically updates the HTML with the jQue
 ## Contributing
 Pull request are welcome!
 
-1. Friend photo is not displaying on the results page. `data.photolink` doesn't seem to grab the data for this value. 
+1. Game is not restarting on its own when one round is finished. You must refresh the page in order to start a new game
+
+2. The wins and loses are not being tallied
