@@ -2,81 +2,79 @@
 <html lang="en-us">
 
 <head>
-        <meta charset="UTF-8">
-        <title>Crystal Collector</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Courgette|Text+Me+One" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Text+Me+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 
-    <body>
-        <h1>Crystal Collector</h1>
-        
-        <br>
-        <h2>How to play:</h2>
-       
-        <br>
-        <div id="box-photo">
-                <img src="assets/images/box.png" width="200", height="200">
-        </div>
-        
-        <br>
-        <p>You will be given a random number at the start of the game.</p>
-   
-        <p>There are four crystals below. By clicking on a crystal you will
+<body>
+    <h1>Crystal Collector</h1>
+
+    <br>
+    <h2>How to play:</h2>
+
+    <br>
+    <div id="box-photo">
+        <img src="assets/images/box.png" width="200" , height="200">
+    </div>
+
+    <br>
+    <p>You will be given a random number at the start of the game.</p>
+
+    <p>There are four crystals below. By clicking on a crystal you will
         add a specific amount of points to your total score.
-        </p>
+    </p>
 
-        <p>You win the game by matching your total score to random number,
-            you lose the game if your total score goes above the random number.
-        </p>
+    <p>You win the game by matching your total score to random number,
+        you lose the game if your total score goes above the random number.
+    </p>
 
-        <p>
-            The value of each crystal is hidden from you until you click on it.
-        </p>
+    <p>
+        The value of each crystal is hidden from you until you click on it.
+    </p>
 
-        <p>
-            Each time when the game starts, the game will change the value of each crystal.
-        </p>
+    <p>
+        Each time when the game starts, the game will change the value of each crystal.
+    </p>
 
-        <div id="currentCrystalNum">0</div>
-        <br>
-        <div id="win-lose">
-            <div id="win">Win:</div>
-            <div id="lose">Lose:</div>
-        </div>
+    <div id="currentCrystalNum">0</div>
+    <br>
+    <div id="win-lose">
+        <div id="win">Win:</div>
+        <div id="lose">Lose:</div>
+    </div>
 
     <div class="container">
         <button class="crystal" id="c1">
-            <img src="assets/images/crystal1.png" width="100", height="100">
+            <img src="assets/images/crystal1.png" width="100" , height="100">
         </button>
 
         <button class="crystal" id="c2">
-            <img src="assets/images/crystal2.png" width="100", height="100">
-        </button>    
-        
+            <img src="assets/images/crystal2.png" width="100" , height="100">
+        </button>
+
         <button class="crystal" id="c3">
-            <img src="assets/images/crystal3.png" width="100", height="100">
-        </button>    
-        
+            <img src="assets/images/crystal3.png" width="100" , height="100">
+        </button>
+
         <button class="crystal" id="c4">
-            <img src="assets/images/crystal4.png" width="100", height="100">                
+            <img src="assets/images/crystal4.png" width="100" , height="100">
         </button>
     </div>
 
 
-        <p id="c">Your current crystal count:</p>
-        <div id="currentCrystalCount">0</div>
+    <p id="c">Your current crystal count:</p>
+    <div id="currentCrystalCount">0</div>
 
     <footer class="footer">
 
     </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="assets/javascript/game.js"></script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
 </html>
-
-
-

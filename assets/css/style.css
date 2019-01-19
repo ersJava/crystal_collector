@@ -35,14 +35,12 @@ p {
     border: 4px dotted rgb(125, 191, 211);
     margin-left: 50px;
     width: 10%;
-    text-align: center;
-        
+    text-align: center;       
 }
 
 .container {
     padding: 30px;
-    width: auto;
-    
+    width: auto;   
 }
 
 .crystals {
@@ -82,5 +80,3 @@ p {
     margin-top: 80px;
     display: block;
 }
-
-/* still works */
