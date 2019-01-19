@@ -7,7 +7,6 @@ var currentCount=0;
 var currentCrystalNum = Math.floor((Math.random() * 90) + 10);
 var currentCrystalCount;
 
-
 // Functions
 function currentNumber() {
     var a = document.getElementById("currentCrystalNum")
@@ -16,7 +15,6 @@ function currentNumber() {
    
 function currentCount() {
     var a = document.getElementById("currentCrystalCount").html
-
 }
 
 for (var i = 1; i < 5; i++) {
@@ -51,7 +49,6 @@ var crystalNumber = parseInt($(this).attr('crystal-value'));
    // game is not restarting 
    // the wins and loses are not being tracked :''( 
 
-
     });
 
 function restartGame() {
@@ -60,5 +57,3 @@ function restartGame() {
 }
 
 });
-
-
