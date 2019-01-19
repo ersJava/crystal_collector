@@ -31,4 +31,4 @@ Pull request are welcome!
 
 1. Friend photo is not displaying on the results page. `data.photolink` doesn't seem to grab the data for this value. 
 
-![Screenshot of game screen](/images/game.png)
+![Screenshot of game screen](assets/images/game.png)
