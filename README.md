@@ -1,5 +1,5 @@
 # Crystal Collector
-https://ersjava.github.io/unit-4-game1/
+https://ersjava.github.io/crystal_collector/
 
 An interactive web browsers game that dynamically updates the HTML with the jQuery library.
 
