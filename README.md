@@ -5,6 +5,8 @@ An interactive web browsers game that dynamically updates the HTML with the jQue
 
 ## How It Works
 
+![Screenshot of game](/assets/images/screenshot.png) 
+
 * The player will be given a random number at the start of the game.
 
 * There are four crystals displayed as buttons on the page.
